@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
-    - redis-py >=4.5.3
+    - python >=3.8
+    - redis-py >=4.6
     - msgpack-python >=1.0,<2.dev0
     - asgiref >=3.2.10,<4
     - channels
