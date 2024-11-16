@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/channels_redis-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/channels_redis-{{ version }}.tar.gz
   sha256: 8375e81493e684792efe6e6eca60ef3d7782ef76c6664057d2e5c31e80d636dd
 
 build:
@@ -16,10 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - redis-py >=4.6
     - msgpack-python >=1.0,<2.dev0
     - asgiref >=3.2.10,<4
@@ -31,6 +32,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
