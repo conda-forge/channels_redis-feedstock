@@ -1,5 +1,5 @@
 {% set name = "channels_redis" %}
-{% set version = "4.2.0" %}
+{% set version = "4.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/channels_redis-{{ version }}.tar.gz
-  sha256: 01c26c4d5d3a203f104bba9e5585c0305a70df390d21792386586068162027fd
+  sha256: 8375e81493e684792efe6e6eca60ef3d7782ef76c6664057d2e5c31e80d636dd
 
 build:
   noarch: python
