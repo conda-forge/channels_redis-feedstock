@@ -25,6 +25,8 @@ requirements:
     - msgpack-python >=1.0,<2.dev0
     - asgiref >=3.2.10,<4
     - channels
+#    - incremental 24.7.2 requires tomli, which is not installed.
+    - tomli
 
 test:
   imports:
