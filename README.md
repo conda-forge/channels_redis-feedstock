@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-channels_redis-green.svg)](https://anaconda.org/conda-forge/channels_redis) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/channels_redis.svg)](https://anaconda.org/conda-forge/channels_redis) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/channels_redis.svg)](https://anaconda.org/conda-forge/channels_redis) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/channels_redis.svg)](https://anaconda.org/conda-forge/channels_redis) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-channels__redis-green.svg)](https://anaconda.org/conda-forge/channels_redis) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/channels_redis.svg)](https://anaconda.org/conda-forge/channels_redis) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/channels_redis.svg)](https://anaconda.org/conda-forge/channels_redis) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/channels_redis.svg)](https://anaconda.org/conda-forge/channels_redis) |
 
 Installing channels_redis
 =========================
